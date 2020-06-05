@@ -1,0 +1,30 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port gth_rxn_in -pg 1 -y 600 -defaultsOSRD
+preplace port gth_cpll_refclk_p_in -pg 1 -y 560 -defaultsOSRD
+preplace port gth_rxp_in -pg 1 -y 620 -defaultsOSRD
+preplace port gth_cpll_refclk_n_in -pg 1 -y 580 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -y 130 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 3 -y 356 -defaultsOSRD
+preplace inst Camera_Subsystem -pg 1 -lvl 3 -y 148 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk1 1 0 3 -40 40 260 220 860
+preplace netloc axi_smc_M00_AXI 1 1 1 N
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_LPD 1 2 1 870
+preplace netloc gth_cpll_refclk_n_in_1 1 0 3 -90J 0 NJ 0 910J
+preplace netloc gth_cpll_refclk_p_in_1 1 0 3 -80J 20 NJ 20 890J
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 0 4 -60 30 NJ 30 900 20 1370
+preplace netloc gth_rxn_in_1 1 0 3 -70J 10 NJ 10 880J
+preplace netloc rst_ps8_0_100M_interconnect_aresetn 1 2 2 920 0 1380
+preplace netloc gth_rxp_in_1 1 0 3 -50J 230 NJ 230 880J
+preplace netloc axi_dma_0_M_AXI_S2MM 1 0 4 -50 -10 NJ -10 NJ -10 1390
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 2 1 870
+levelinfo -pg 1 -110 120 560 1200 1410 -top -20 -bot 1210
+",
+}
+{
+   da_axi4_cnt: "6",
+   da_zynq_ultra_ps_e_cnt: "1",
+}

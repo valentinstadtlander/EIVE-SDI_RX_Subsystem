@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;zusys_wrapper_hw_platform_0/SoftwareTemplates&apos;" deleteContents="false" description="Delete resource &apos;zusys_wrapper_hw_platform_0/SoftwareTemplates&apos;" element1="/zusys_wrapper_hw_platform_0/SoftwareTemplates" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1582894338113"/>
+</session>

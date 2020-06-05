@@ -1,0 +1,919 @@
+11:52:09 **** Auto Build of configuration Debug for project zynqmp_fsbl ****
+make all 
+'Building file: C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/psu_init.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/psu_init.d" -MT"src/psu_init.o" -o "src/psu_init.o" "C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/psu_init.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/psu_init.d' '-MT' 'src/psu_init.o' '-o' 'src/psu_init.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/psu_init.d -MF src/psu_init.d -MP -MT src/psu_init.o -MT src/psu_init.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c -quiet -dumpbase psu_init.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/psu_init.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccqB2Nmt.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c:15179:13: warning: 'dpll_prog' defined but not used [-Wunused-function]
+ static void dpll_prog(int ddr_pll_fbdiv, int d_lock_dly, int d_lock_cnt,
+             ^~~~~~~~~
+C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c:15172:12: warning: 'mask_read' defined but not used [-Wunused-function]
+ static u32 mask_read(u32 add, u32 mask)
+            ^~~~~~~~~
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/psu_init.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/psu_init.d' '-MT' 'src/psu_init.o' '-o' 'src/psu_init.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/psu_init.o C:\Users\st143005\AppData\Local\Temp\ccqB2Nmt.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/psu_init.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/psu_init.d' '-MT' 'src/psu_init.o' '-o' 'src/psu_init.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c'
+' '
+'Building file: ../src/si534x.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/si534x.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/si534x.d" -MT"src/si534x.o" -o "src/si534x.o" "../src/si534x.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/si534x.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/si534x.d' '-MT' 'src/si534x.o' '-o' 'src/si534x.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/si534x.d -MF src/si534x.d -MP -MT src/si534x.o -MT src/si534x.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/si534x.c -quiet -dumpbase si534x.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/si534x.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccwm9IBg.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+../src/si534x.c: In function 'si534x_i2c_write':
+../src/si534x.c:40:5: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+     while (XIicPs_BusIsBusy(&I2cInstancePtr));
+     ^~~~~
+../src/si534x.c:42:2: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+  return I2C_SUCCESS;
+  ^~~~~~
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/si534x.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/si534x.d' '-MT' 'src/si534x.o' '-o' 'src/si534x.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/si534x.o C:\Users\st143005\AppData\Local\Temp\ccwm9IBg.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/si534x.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/si534x.d' '-MT' 'src/si534x.o' '-o' 'src/si534x.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/si534x.c'
+' '
+'Building file: ../src/xfsbl_authentication.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_authentication.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_authentication.d" -MT"src/xfsbl_authentication.o" -o "src/xfsbl_authentication.o" "../src/xfsbl_authentication.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_authentication.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_authentication.d' '-MT' 'src/xfsbl_authentication.o' '-o' 'src/xfsbl_authentication.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_authentication.d -MF src/xfsbl_authentication.d -MP -MT src/xfsbl_authentication.o -MT src/xfsbl_authentication.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_authentication.c -quiet -dumpbase xfsbl_authentication.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_authentication.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccnbukTx.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_authentication.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_authentication.d' '-MT' 'src/xfsbl_authentication.o' '-o' 'src/xfsbl_authentication.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_authentication.o C:\Users\st143005\AppData\Local\Temp\ccnbukTx.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_authentication.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_authentication.d' '-MT' 'src/xfsbl_authentication.o' '-o' 'src/xfsbl_authentication.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_authentication.c'
+' '
+'Building file: ../src/xfsbl_board.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_board.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_board.d" -MT"src/xfsbl_board.o" -o "src/xfsbl_board.o" "../src/xfsbl_board.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_board.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_board.d' '-MT' 'src/xfsbl_board.o' '-o' 'src/xfsbl_board.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_board.d -MF src/xfsbl_board.d -MP -MT src/xfsbl_board.o -MT src/xfsbl_board.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_board.c -quiet -dumpbase xfsbl_board.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_board.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccf9FstX.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+In file included from ../src/xfsbl_board.c:60:0:
+../src/si534x.h:18:12: warning: '_last_page' defined but not used [-Wunused-variable]
+ static int _last_page = -1;
+            ^~~~~~~~~~
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_board.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_board.d' '-MT' 'src/xfsbl_board.o' '-o' 'src/xfsbl_board.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_board.o C:\Users\st143005\AppData\Local\Temp\ccf9FstX.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_board.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_board.d' '-MT' 'src/xfsbl_board.o' '-o' 'src/xfsbl_board.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_board.c'
+' '
+'Building file: ../src/xfsbl_bs.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_bs.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_bs.d" -MT"src/xfsbl_bs.o" -o "src/xfsbl_bs.o" "../src/xfsbl_bs.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_bs.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_bs.d' '-MT' 'src/xfsbl_bs.o' '-o' 'src/xfsbl_bs.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_bs.d -MF src/xfsbl_bs.d -MP -MT src/xfsbl_bs.o -MT src/xfsbl_bs.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_bs.c -quiet -dumpbase xfsbl_bs.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_bs.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\cc8kvNZb.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_bs.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_bs.d' '-MT' 'src/xfsbl_bs.o' '-o' 'src/xfsbl_bs.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_bs.o C:\Users\st143005\AppData\Local\Temp\cc8kvNZb.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_bs.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_bs.d' '-MT' 'src/xfsbl_bs.o' '-o' 'src/xfsbl_bs.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_bs.c'
+' '
+'Building file: ../src/xfsbl_csu_dma.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_csu_dma.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_csu_dma.d" -MT"src/xfsbl_csu_dma.o" -o "src/xfsbl_csu_dma.o" "../src/xfsbl_csu_dma.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_csu_dma.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_csu_dma.d' '-MT' 'src/xfsbl_csu_dma.o' '-o' 'src/xfsbl_csu_dma.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_csu_dma.d -MF src/xfsbl_csu_dma.d -MP -MT src/xfsbl_csu_dma.o -MT src/xfsbl_csu_dma.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_csu_dma.c -quiet -dumpbase xfsbl_csu_dma.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_csu_dma.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccgzUAdF.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_csu_dma.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_csu_dma.d' '-MT' 'src/xfsbl_csu_dma.o' '-o' 'src/xfsbl_csu_dma.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_csu_dma.o C:\Users\st143005\AppData\Local\Temp\ccgzUAdF.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_csu_dma.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_csu_dma.d' '-MT' 'src/xfsbl_csu_dma.o' '-o' 'src/xfsbl_csu_dma.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_csu_dma.c'
+' '
+'Building file: ../src/xfsbl_dfu_util.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_dfu_util.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_dfu_util.d" -MT"src/xfsbl_dfu_util.o" -o "src/xfsbl_dfu_util.o" "../src/xfsbl_dfu_util.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_dfu_util.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_dfu_util.d' '-MT' 'src/xfsbl_dfu_util.o' '-o' 'src/xfsbl_dfu_util.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_dfu_util.d -MF src/xfsbl_dfu_util.d -MP -MT src/xfsbl_dfu_util.o -MT src/xfsbl_dfu_util.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_dfu_util.c -quiet -dumpbase xfsbl_dfu_util.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_dfu_util.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccsFgwQZ.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_dfu_util.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_dfu_util.d' '-MT' 'src/xfsbl_dfu_util.o' '-o' 'src/xfsbl_dfu_util.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_dfu_util.o C:\Users\st143005\AppData\Local\Temp\ccsFgwQZ.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_dfu_util.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_dfu_util.d' '-MT' 'src/xfsbl_dfu_util.o' '-o' 'src/xfsbl_dfu_util.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_dfu_util.c'
+' '
+'Building file: ../src/xfsbl_exit.S'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_exit.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_exit.d" -MT"src/xfsbl_exit.o" -o "src/xfsbl_exit.o" "../src/xfsbl_exit.S"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_exit.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_exit.d' '-MT' 'src/xfsbl_exit.o' '-o' 'src/xfsbl_exit.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -E -lang-asm -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_exit.d -MF src/xfsbl_exit.d -MP -MT src/xfsbl_exit.o -MT src/xfsbl_exit.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_exit.S -march=armv8-a -mlittle-endian -mabi=lp64 -Wall -fmessage-length=0 -g3 -fworking-directory -O0 -fno-directives-only -o C:\Users\st143005\AppData\Local\Temp\ccfA11Ca.s
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_exit.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_exit.d' '-MT' 'src/xfsbl_exit.o' '-o' 'src/xfsbl_exit.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe --gdwarf2 -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_exit.o C:\Users\st143005\AppData\Local\Temp\ccfA11Ca.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_exit.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_exit.d' '-MT' 'src/xfsbl_exit.o' '-o' 'src/xfsbl_exit.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_exit.S'
+' '
+'Building file: ../src/xfsbl_handoff.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_handoff.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_handoff.d" -MT"src/xfsbl_handoff.o" -o "src/xfsbl_handoff.o" "../src/xfsbl_handoff.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_handoff.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_handoff.d' '-MT' 'src/xfsbl_handoff.o' '-o' 'src/xfsbl_handoff.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_handoff.d -MF src/xfsbl_handoff.d -MP -MT src/xfsbl_handoff.o -MT src/xfsbl_handoff.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_handoff.c -quiet -dumpbase xfsbl_handoff.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_handoff.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccrSKXhs.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_handoff.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_handoff.d' '-MT' 'src/xfsbl_handoff.o' '-o' 'src/xfsbl_handoff.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_handoff.o C:\Users\st143005\AppData\Local\Temp\ccrSKXhs.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_handoff.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_handoff.d' '-MT' 'src/xfsbl_handoff.o' '-o' 'src/xfsbl_handoff.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_handoff.c'
+' '
+'Building file: ../src/xfsbl_hooks.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_hooks.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_hooks.d" -MT"src/xfsbl_hooks.o" -o "src/xfsbl_hooks.o" "../src/xfsbl_hooks.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_hooks.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_hooks.d' '-MT' 'src/xfsbl_hooks.o' '-o' 'src/xfsbl_hooks.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_hooks.d -MF src/xfsbl_hooks.d -MP -MT src/xfsbl_hooks.o -MT src/xfsbl_hooks.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_hooks.c -quiet -dumpbase xfsbl_hooks.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_hooks.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccl9qX05.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_hooks.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_hooks.d' '-MT' 'src/xfsbl_hooks.o' '-o' 'src/xfsbl_hooks.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_hooks.o C:\Users\st143005\AppData\Local\Temp\ccl9qX05.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_hooks.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_hooks.d' '-MT' 'src/xfsbl_hooks.o' '-o' 'src/xfsbl_hooks.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_hooks.c'
+' '
+'Building file: ../src/xfsbl_image_header.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_image_header.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_image_header.d" -MT"src/xfsbl_image_header.o" -o "src/xfsbl_image_header.o" "../src/xfsbl_image_header.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_image_header.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_image_header.d' '-MT' 'src/xfsbl_image_header.o' '-o' 'src/xfsbl_image_header.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_image_header.d -MF src/xfsbl_image_header.d -MP -MT src/xfsbl_image_header.o -MT src/xfsbl_image_header.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_image_header.c -quiet -dumpbase xfsbl_image_header.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_image_header.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccaDKZds.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_image_header.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_image_header.d' '-MT' 'src/xfsbl_image_header.o' '-o' 'src/xfsbl_image_header.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_image_header.o C:\Users\st143005\AppData\Local\Temp\ccaDKZds.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_image_header.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_image_header.d' '-MT' 'src/xfsbl_image_header.o' '-o' 'src/xfsbl_image_header.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_image_header.c'
+' '
+'Building file: ../src/xfsbl_initialization.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_initialization.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_initialization.d" -MT"src/xfsbl_initialization.o" -o "src/xfsbl_initialization.o" "../src/xfsbl_initialization.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_initialization.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_initialization.d' '-MT' 'src/xfsbl_initialization.o' '-o' 'src/xfsbl_initialization.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_initialization.d -MF src/xfsbl_initialization.d -MP -MT src/xfsbl_initialization.o -MT src/xfsbl_initialization.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_initialization.c -quiet -dumpbase xfsbl_initialization.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_initialization.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccYSWc3Q.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_initialization.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_initialization.d' '-MT' 'src/xfsbl_initialization.o' '-o' 'src/xfsbl_initialization.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_initialization.o C:\Users\st143005\AppData\Local\Temp\ccYSWc3Q.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_initialization.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_initialization.d' '-MT' 'src/xfsbl_initialization.o' '-o' 'src/xfsbl_initialization.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_initialization.c'
+' '
+'Building file: ../src/xfsbl_main.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_main.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_main.d" -MT"src/xfsbl_main.o" -o "src/xfsbl_main.o" "../src/xfsbl_main.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_main.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_main.d' '-MT' 'src/xfsbl_main.o' '-o' 'src/xfsbl_main.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_main.d -MF src/xfsbl_main.d -MP -MT src/xfsbl_main.o -MT src/xfsbl_main.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_main.c -quiet -dumpbase xfsbl_main.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_main.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccFad1Of.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_main.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_main.d' '-MT' 'src/xfsbl_main.o' '-o' 'src/xfsbl_main.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_main.o C:\Users\st143005\AppData\Local\Temp\ccFad1Of.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_main.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_main.d' '-MT' 'src/xfsbl_main.o' '-o' 'src/xfsbl_main.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_main.c'
+' '
+'Building file: ../src/xfsbl_misc.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_misc.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_misc.d" -MT"src/xfsbl_misc.o" -o "src/xfsbl_misc.o" "../src/xfsbl_misc.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_misc.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_misc.d' '-MT' 'src/xfsbl_misc.o' '-o' 'src/xfsbl_misc.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_misc.d -MF src/xfsbl_misc.d -MP -MT src/xfsbl_misc.o -MT src/xfsbl_misc.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_misc.c -quiet -dumpbase xfsbl_misc.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_misc.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccjFkUCC.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_misc.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_misc.d' '-MT' 'src/xfsbl_misc.o' '-o' 'src/xfsbl_misc.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_misc.o C:\Users\st143005\AppData\Local\Temp\ccjFkUCC.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_misc.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_misc.d' '-MT' 'src/xfsbl_misc.o' '-o' 'src/xfsbl_misc.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_misc.c'
+' '
+'Building file: ../src/xfsbl_misc_drivers.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_misc_drivers.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_misc_drivers.d" -MT"src/xfsbl_misc_drivers.o" -o "src/xfsbl_misc_drivers.o" "../src/xfsbl_misc_drivers.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_misc_drivers.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_misc_drivers.d' '-MT' 'src/xfsbl_misc_drivers.o' '-o' 'src/xfsbl_misc_drivers.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_misc_drivers.d -MF src/xfsbl_misc_drivers.d -MP -MT src/xfsbl_misc_drivers.o -MT src/xfsbl_misc_drivers.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_misc_drivers.c -quiet -dumpbase xfsbl_misc_drivers.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_misc_drivers.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccDZaMJ6.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_misc_drivers.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_misc_drivers.d' '-MT' 'src/xfsbl_misc_drivers.o' '-o' 'src/xfsbl_misc_drivers.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_misc_drivers.o C:\Users\st143005\AppData\Local\Temp\ccDZaMJ6.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_misc_drivers.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_misc_drivers.d' '-MT' 'src/xfsbl_misc_drivers.o' '-o' 'src/xfsbl_misc_drivers.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_misc_drivers.c'
+' '
+'Building file: ../src/xfsbl_nand.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_nand.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_nand.d" -MT"src/xfsbl_nand.o" -o "src/xfsbl_nand.o" "../src/xfsbl_nand.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_nand.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_nand.d' '-MT' 'src/xfsbl_nand.o' '-o' 'src/xfsbl_nand.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_nand.d -MF src/xfsbl_nand.d -MP -MT src/xfsbl_nand.o -MT src/xfsbl_nand.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_nand.c -quiet -dumpbase xfsbl_nand.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_nand.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccKm3iji.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_nand.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_nand.d' '-MT' 'src/xfsbl_nand.o' '-o' 'src/xfsbl_nand.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_nand.o C:\Users\st143005\AppData\Local\Temp\ccKm3iji.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_nand.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_nand.d' '-MT' 'src/xfsbl_nand.o' '-o' 'src/xfsbl_nand.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_nand.c'
+' '
+'Building file: ../src/xfsbl_partition_load.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_partition_load.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_partition_load.d" -MT"src/xfsbl_partition_load.o" -o "src/xfsbl_partition_load.o" "../src/xfsbl_partition_load.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_partition_load.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_partition_load.d' '-MT' 'src/xfsbl_partition_load.o' '-o' 'src/xfsbl_partition_load.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_partition_load.d -MF src/xfsbl_partition_load.d -MP -MT src/xfsbl_partition_load.o -MT src/xfsbl_partition_load.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_partition_load.c -quiet -dumpbase xfsbl_partition_load.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_partition_load.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccSusrWA.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_partition_load.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_partition_load.d' '-MT' 'src/xfsbl_partition_load.o' '-o' 'src/xfsbl_partition_load.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_partition_load.o C:\Users\st143005\AppData\Local\Temp\ccSusrWA.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_partition_load.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_partition_load.d' '-MT' 'src/xfsbl_partition_load.o' '-o' 'src/xfsbl_partition_load.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_partition_load.c'
+' '
+'Building file: ../src/xfsbl_plpartition_valid.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_plpartition_valid.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_plpartition_valid.d" -MT"src/xfsbl_plpartition_valid.o" -o "src/xfsbl_plpartition_valid.o" "../src/xfsbl_plpartition_valid.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_plpartition_valid.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_plpartition_valid.d' '-MT' 'src/xfsbl_plpartition_valid.o' '-o' 'src/xfsbl_plpartition_valid.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_plpartition_valid.d -MF src/xfsbl_plpartition_valid.d -MP -MT src/xfsbl_plpartition_valid.o -MT src/xfsbl_plpartition_valid.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_plpartition_valid.c -quiet -dumpbase xfsbl_plpartition_valid.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_plpartition_valid.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccvUESRb.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_plpartition_valid.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_plpartition_valid.d' '-MT' 'src/xfsbl_plpartition_valid.o' '-o' 'src/xfsbl_plpartition_valid.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_plpartition_valid.o C:\Users\st143005\AppData\Local\Temp\ccvUESRb.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_plpartition_valid.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_plpartition_valid.d' '-MT' 'src/xfsbl_plpartition_valid.o' '-o' 'src/xfsbl_plpartition_valid.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_plpartition_valid.c'
+' '
+'Building file: ../src/xfsbl_qspi.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_qspi.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_qspi.d" -MT"src/xfsbl_qspi.o" -o "src/xfsbl_qspi.o" "../src/xfsbl_qspi.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_qspi.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_qspi.d' '-MT' 'src/xfsbl_qspi.o' '-o' 'src/xfsbl_qspi.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_qspi.d -MF src/xfsbl_qspi.d -MP -MT src/xfsbl_qspi.o -MT src/xfsbl_qspi.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_qspi.c -quiet -dumpbase xfsbl_qspi.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_qspi.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccPmzEGI.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_qspi.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_qspi.d' '-MT' 'src/xfsbl_qspi.o' '-o' 'src/xfsbl_qspi.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_qspi.o C:\Users\st143005\AppData\Local\Temp\ccPmzEGI.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_qspi.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_qspi.d' '-MT' 'src/xfsbl_qspi.o' '-o' 'src/xfsbl_qspi.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_qspi.c'
+' '
+'Building file: ../src/xfsbl_rsa_sha.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_rsa_sha.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_rsa_sha.d" -MT"src/xfsbl_rsa_sha.o" -o "src/xfsbl_rsa_sha.o" "../src/xfsbl_rsa_sha.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_rsa_sha.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_rsa_sha.d' '-MT' 'src/xfsbl_rsa_sha.o' '-o' 'src/xfsbl_rsa_sha.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_rsa_sha.d -MF src/xfsbl_rsa_sha.d -MP -MT src/xfsbl_rsa_sha.o -MT src/xfsbl_rsa_sha.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_rsa_sha.c -quiet -dumpbase xfsbl_rsa_sha.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_rsa_sha.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\cc3ZwIld.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_rsa_sha.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_rsa_sha.d' '-MT' 'src/xfsbl_rsa_sha.o' '-o' 'src/xfsbl_rsa_sha.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_rsa_sha.o C:\Users\st143005\AppData\Local\Temp\cc3ZwIld.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_rsa_sha.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_rsa_sha.d' '-MT' 'src/xfsbl_rsa_sha.o' '-o' 'src/xfsbl_rsa_sha.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_rsa_sha.c'
+' '
+'Building file: ../src/xfsbl_sd.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_sd.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_sd.d" -MT"src/xfsbl_sd.o" -o "src/xfsbl_sd.o" "../src/xfsbl_sd.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_sd.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_sd.d' '-MT' 'src/xfsbl_sd.o' '-o' 'src/xfsbl_sd.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_sd.d -MF src/xfsbl_sd.d -MP -MT src/xfsbl_sd.o -MT src/xfsbl_sd.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_sd.c -quiet -dumpbase xfsbl_sd.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_sd.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccuPbjsp.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_sd.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_sd.d' '-MT' 'src/xfsbl_sd.o' '-o' 'src/xfsbl_sd.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_sd.o C:\Users\st143005\AppData\Local\Temp\ccuPbjsp.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_sd.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_sd.d' '-MT' 'src/xfsbl_sd.o' '-o' 'src/xfsbl_sd.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_sd.c'
+' '
+'Building file: ../src/xfsbl_translation_table.S'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_translation_table.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_translation_table.d" -MT"src/xfsbl_translation_table.o" -o "src/xfsbl_translation_table.o" "../src/xfsbl_translation_table.S"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_translation_table.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_translation_table.d' '-MT' 'src/xfsbl_translation_table.o' '-o' 'src/xfsbl_translation_table.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -E -lang-asm -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_translation_table.d -MF src/xfsbl_translation_table.d -MP -MT src/xfsbl_translation_table.o -MT src/xfsbl_translation_table.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_translation_table.S -march=armv8-a -mlittle-endian -mabi=lp64 -Wall -fmessage-length=0 -g3 -fworking-directory -O0 -fno-directives-only -o C:\Users\st143005\AppData\Local\Temp\ccuBkwQK.s
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+../src/xfsbl_translation_table.S:111:2: warning: #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined" [-Wcpp]
+ #warning "There's no DDR_1 in the HW design. MMU translation table marks 32 GB DDR address space as undefined"
+  ^~~~~~~
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_translation_table.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_translation_table.d' '-MT' 'src/xfsbl_translation_table.o' '-o' 'src/xfsbl_translation_table.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe --gdwarf2 -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_translation_table.o C:\Users\st143005\AppData\Local\Temp\ccuBkwQK.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_translation_table.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_translation_table.d' '-MT' 'src/xfsbl_translation_table.o' '-o' 'src/xfsbl_translation_table.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_translation_table.S'
+' '
+'Building file: ../src/xfsbl_usb.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_usb.o" -v -I../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_usb.d" -MT"src/xfsbl_usb.o" -o "src/xfsbl_usb.o" "../src/xfsbl_usb.c"
+Using built-in specs.
+COLLECT_GCC=aarch64-none-elf-gcc
+Target: aarch64-none-elf
+Configured with: /proj/esdt_sdk/gnu_abe/ABE/builds/lin/arm/arm-none-eabi/snapshots/gcc-linaro-snapshot-6.2-2016.11/configure SHELL=/bin/sh --with-bugurl=https://bugs.linaro.org --with-mpc=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-mpfr=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gmp=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32 --with-gnu-as --with-gnu-ld --disable-libstdcxx-pch --disable-libmudflap --with-cloog=no --with-ppl=no --with-isl=no --disable-nls --enable-c99 --with-arch=armv8-a --enable-fix-cortex-a53-835769 --enable-fix-cortex-a53-843419 --enable-multiarch --disable-threads --with-newlib CFLAGS=-O2 CXXFLAGS=-O2 --with-build-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-lto --enable-plugins --enable-linker-build-id --enable-long-long --enable-shared --with-sysroot=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/aarch64-none-elf/libc --enable-languages=c,c++,lto --enable-checking=yes --disable-bootstrap CFLAGS=-O2 CXXFLAGS=-O2 --with-bugurl=https://bugs.linaro.org --build=x86_64-unknown-linux-gnu --host=x86_64-w64-mingw32 --target=aarch64-none-elf --prefix=/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32
+Thread model: single
+gcc version 6.2.1 20161114 (Linaro GCC Snapshot 6.2-2016.11) 
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_usb.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_usb.d' '-MT' 'src/xfsbl_usb.o' '-o' 'src/xfsbl_usb.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/cc1.exe -quiet -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -iprefix c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/ -isysroot c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc -MMD src/xfsbl_usb.d -MF src/xfsbl_usb.d -MP -MT src/xfsbl_usb.o -MT src/xfsbl_usb.o -dD -D ARMA53_64 -D FSBL_DEBUG_INFO ../src/xfsbl_usb.c -quiet -dumpbase xfsbl_usb.c -march=armv8-a -mlittle-endian -mabi=lp64 -auxbase-strip src/xfsbl_usb.o -g3 -O0 -Wall -version -fmessage-length=0 -o C:\Users\st143005\AppData\Local\Temp\ccMKglPX.s
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include"
+ignoring nonexistent directory "c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/proj/esdt_sdk/gnu_abe/ABE/builds/win/aarch64/aarch64-none-elf/builds/destdir/x86_64-w64-mingw32/lib/gcc/aarch64-none-elf/6.2.1/../../../../include"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/include-fixed"
+ignoring duplicate directory "c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/lib/gcc/../../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0
+ ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/include-fixed
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/include
+ c:\xilinx\sdk\2017.4\gnu\aarch64\nt\aarch64-none\bin\../aarch64-none-elf/libc/usr/include
+End of search list.
+GNU C11 (Linaro GCC Snapshot 6.2-2016.11) version 6.2.1 20161114 (aarch64-none-elf)
+	compiled by GNU C version 4.8.0 20121031 (experimental), GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3, isl version none
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: e9cc6ff7967f9e278a9b605f33a7c60c
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_usb.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_usb.d' '-MT' 'src/xfsbl_usb.o' '-o' 'src/xfsbl_usb.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+ c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/as.exe -v -I C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0 -I ../../zynqmp_fsbl_bsp/psu_cortexa53_0/include -EL -march=armv8-a -mabi=lp64 -o src/xfsbl_usb.o C:\Users\st143005\AppData\Local\Temp\ccMKglPX.s
+GNU assembler version 2.27 (aarch64-none-elf) using BFD version (Linaro_Binutils-) 2.27
+COMPILER_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../libexec/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/bin/
+LIBRARY_PATH=c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../lib/gcc/aarch64-none-elf/6.2.1/../../../../aarch64-none-elf/lib/;c:/xilinx/sdk/2017.4/gnu/aarch64/nt/aarch64-none/bin/../aarch64-none-elf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-D' 'ARMA53_64' '-D' 'FSBL_DEBUG_INFO' '-Wall' '-O0' '-g3' '-I' 'C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0' '-c' '-fmessage-length=0' '-MT' 'src/xfsbl_usb.o' '-v' '-I' '../../zynqmp_fsbl_bsp/psu_cortexa53_0/include' '-MMD' '-MP' '-MF' 'src/xfsbl_usb.d' '-MT' 'src/xfsbl_usb.o' '-o' 'src/xfsbl_usb.o' '-march=armv8-a' '-mlittle-endian' '-mabi=lp64'
+'Finished building: ../src/xfsbl_usb.c'
+' '
+'Building target: zynqmp_fsbl.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../zynqmp_fsbl_bsp/psu_cortexa53_0/lib -o "zynqmp_fsbl.elf"  ./src/psu_init.o ./src/si534x.o ./src/xfsbl_authentication.o ./src/xfsbl_board.o ./src/xfsbl_bs.o ./src/xfsbl_csu_dma.o ./src/xfsbl_dfu_util.o ./src/xfsbl_exit.o ./src/xfsbl_handoff.o ./src/xfsbl_hooks.o ./src/xfsbl_image_header.o ./src/xfsbl_initialization.o ./src/xfsbl_main.o ./src/xfsbl_misc.o ./src/xfsbl_misc_drivers.o ./src/xfsbl_nand.o ./src/xfsbl_partition_load.o ./src/xfsbl_plpartition_valid.o ./src/xfsbl_qspi.o ./src/xfsbl_rsa_sha.o ./src/xfsbl_sd.o ./src/xfsbl_translation_table.o ./src/xfsbl_usb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group
+'Finished building target: zynqmp_fsbl.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size zynqmp_fsbl.elf  |tee "zynqmp_fsbl.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 126968	   5072	  86336	 218376	  35508	zynqmp_fsbl.elf
+'Finished building: zynqmp_fsbl.elf.size'
+' '
+
+11:52:22 Build Finished (took 13s.119ms)
+

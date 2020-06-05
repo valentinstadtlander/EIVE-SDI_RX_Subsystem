@@ -1,0 +1,63 @@
+11:21:34 **** Auto Build of configuration Debug for project AXI_DMA_Test ****
+make all 
+'Building file: ../src/AXI_DMA_Test.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AXI_DMA_Test.o" -I../../AXI_DMA_Test_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/AXI_DMA_Test.d" -MT"src/AXI_DMA_Test.o" -o "src/AXI_DMA_Test.o" "../src/AXI_DMA_Test.c"
+../src/AXI_DMA_Test.c: In function 'main':
+../src/AXI_DMA_Test.c:81:16: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+      Xil_Out32(RxBufferPtr, 0xAFFED00F);
+                ^~~~~~~~~~~
+In file included from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_hw.h:67:0,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_bd.h:117,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_bdring.h:86,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma.h:488,
+                 from ../src/AXI_DMA_Test.c:58:
+../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka long unsigned int}' but argument is of type 'u8 * {aka unsigned char *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/AXI_DMA_Test.c:82:16: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [-Wint-conversion]
+      Xil_Out32(RxBufferPtr + MAX_PKT_LEN, 0xDEADBABE);
+                ^~~~~~~~~~~
+In file included from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_hw.h:67:0,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_bd.h:117,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_bdring.h:86,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma.h:488,
+                 from ../src/AXI_DMA_Test.c:58:
+../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xil_io.h:223:20: note: expected 'UINTPTR {aka long unsigned int}' but argument is of type 'u8 * {aka unsigned char *}'
+ static INLINE void Xil_Out32(UINTPTR Addr, u32 Value)
+                    ^~~~~~~~~
+../src/AXI_DMA_Test.c:136:25: warning: passing argument 1 of 'Xil_In32' makes integer from pointer without a cast [-Wint-conversion]
+       rxData = Xil_In32(RxBufferPtr + i*4);
+                         ^~~~~~~~~~~
+In file included from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_hw.h:67:0,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_bd.h:117,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma_bdring.h:86,
+                 from ../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xaxidma.h:488,
+                 from ../src/AXI_DMA_Test.c:58:
+../../AXI_DMA_Test_bsp/psu_cortexa53_0/include/xil_io.h:151:19: note: expected 'UINTPTR {aka long unsigned int}' but argument is of type 'u8 * {aka unsigned char *}'
+ static INLINE u32 Xil_In32(UINTPTR Addr)
+                   ^~~~~~~~
+../src/AXI_DMA_Test.c:76:9: warning: unused variable 'Value' [-Wunused-variable]
+      u8 Value;
+         ^~~~~
+'Finished building: ../src/AXI_DMA_Test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../AXI_DMA_Test_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: AXI_DMA_Test.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../AXI_DMA_Test_bsp/psu_cortexa53_0/lib -o "AXI_DMA_Test.elf"  ./src/AXI_DMA_Test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: AXI_DMA_Test.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size AXI_DMA_Test.elf  |tee "AXI_DMA_Test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  45140	   4512	  23552	  73204	  11df4	AXI_DMA_Test.elf
+'Finished building: AXI_DMA_Test.elf.size'
+' '
+
+11:21:36 Build Finished (took 2s.157ms)
+

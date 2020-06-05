@@ -1,0 +1,91 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jun  5 15:51:32 2020
+# Process ID: 14704
+# Current directory: C:/Users/Valentin Stadtlander/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1212
+# Log file: C:/Users/Valentin Stadtlander/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Valentin Stadtlander/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Xilinx/Vivado/2017.4/scripts/Vivado_init.tcl'
+262 Beta devices matching pattern found, 56 enabled.
+start_gui
+open_project C:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.ipdefs/AXI_DMA_Data_Gen_1.0_0_0_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.ipdefs/SDI_RX_Subsystem_1.0_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:29 . Memory (MB): peak = 996.313 ; gain = 209.930
+update_compile_order -fileset sources_1
+archive_project C:/SDI_RX/EIVE-SDI_RX_Subsystem.xpr.zip -temp_dir {C:/Users/Valentin Stadtlander/Desktop} -force -exclude_run_results -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/Valentin Stadtlander/Desktop' for archiving project
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.ipdefs/AXI_DMA_Data_Gen_1.0_0_0_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.ipdefs/SDI_RX_Subsystem_1.0_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1' generated file not found 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.vhdl'. Please regenerate to continue.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1.dcp' to 'c:/Users/Valentin Stadtlander/Desktop/PrjAr/_X_/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1.dcp'
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.v' to 'c:/Users/Valentin Stadtlander/Desktop/PrjAr/_X_/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.v'
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.vhdl' to 'c:/Users/Valentin Stadtlander/Desktop/PrjAr/_X_/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_stub.vhdl'
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.v' to 'c:/Users/Valentin Stadtlander/Desktop/PrjAr/_X_/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.v'
+CRITICAL WARNING: [IP_Flow 19-4299] Failed to copy 'c:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.vhdl' to 'c:/Users/Valentin Stadtlander/Desktop/PrjAr/_X_/EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1/SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_sim_netlist.vhdl'
+INFO: [Coretcl 2-135] resetting runs for excluding generated files from archive...
+WARNING: [Coretcl 2-105] Run 'synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'synth_1'...
+WARNING: [Coretcl 2-105] Run 'zusys_zynq_ultra_ps_e_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'zusys_zynq_ultra_ps_e_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'zusys_axi_dma_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'zusys_axi_dma_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'zusys_AXI_DMA_Data_Gen_0_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'zusys_AXI_DMA_Data_Gen_0_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'zusys_system_ila_0_2_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'zusys_system_ila_0_2_synth_1'...
+WARNING: [Coretcl 2-105] Run 'zusys_xbar_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'zusys_xbar_0_synth_1'...
+WARNING: [Coretcl 2-105] Run 'zusys_axi_smc_0_synth_1' is currently active
+INFO: [Coretcl 2-133] re-setting run 'zusys_axi_smc_0_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_synth_1'...
+INFO: [Coretcl 2-133] re-setting run 'impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'zusys_zynq_ultra_ps_e_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'zusys_axi_dma_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'zusys_AXI_DMA_Data_Gen_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'zusys_system_ila_0_2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'zusys_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'zusys_axi_smc_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'SDI_RX_Subsystem_v1_0_bfm_1_sim_clk_gen_0_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'zusys_AXI_DMA_Data_Gen_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'zusys_AXI_DMA_Data_Gen_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'zusys_axi_dma_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'zusys_axi_dma_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'zusys_axi_smc_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'zusys_axi_smc_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'zusys_system_ila_0_2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'zusys_system_ila_0_2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'zusys_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'zusys_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'zusys_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'zusys_zynq_ultra_ps_e_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'

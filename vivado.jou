@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jun  5 15:51:32 2020
+# Process ID: 14704
+# Current directory: C:/Users/Valentin Stadtlander/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1212
+# Log file: C:/Users/Valentin Stadtlander/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/Valentin Stadtlander/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/SDI_RX/EIVE-SDI_RX_Subsystem_t_v/EIVE-SDI_RX_Subsystem.xpr
+update_compile_order -fileset sources_1
+archive_project C:/SDI_RX/EIVE-SDI_RX_Subsystem.xpr.zip -temp_dir {C:/Users/Valentin Stadtlander/Desktop} -force -exclude_run_results -include_config_settings

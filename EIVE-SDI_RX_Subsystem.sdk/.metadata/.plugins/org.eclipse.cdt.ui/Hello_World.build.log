@@ -1,0 +1,30 @@
+18:49:12 **** Auto Build of configuration Debug for project Hello_World ****
+make all 
+'Building file: ../src/hello_te0808.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hello_te0808.o" -I../../Hello_World_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/hello_te0808.d" -MT"src/hello_te0808.o" -o "src/hello_te0808.o" "../src/hello_te0808.c"
+../src/hello_te0808.c: In function 'main':
+../src/hello_te0808.c:61:6: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+      sleep(1);
+      ^~~~~
+'Finished building: ../src/hello_te0808.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../Hello_World_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Hello_World.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Hello_World_bsp/psu_cortexa53_0/lib -o "Hello_World.elf"  ./src/hello_te0808.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Hello_World.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size Hello_World.elf  |tee "Hello_World.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35228	   2360	  20640	  58228	   e374	Hello_World.elf
+'Finished building: Hello_World.elf.size'
+' '
+
+18:49:14 Build Finished (took 1s.473ms)
+

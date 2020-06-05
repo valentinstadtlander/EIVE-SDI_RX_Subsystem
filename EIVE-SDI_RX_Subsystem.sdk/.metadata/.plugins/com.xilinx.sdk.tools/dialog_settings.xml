@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="zusys_wrapper_hw_platform_0" key="programflash.hwplatform"/>
+	<item value="true" key="zusys_wrapper_hw_platform_1-verifyFlash"/>
+	<item value="qspi_dual_parallel" key="zusys_wrapper_hw_platform_1-flashType"/>
+	<item value="true" key="zusys_wrapper_hw_platform_0-verifyFlash"/>
+	<item value="Auto Detect" key="zusys_wrapper_hw_platform_1-device"/>
+	<item value="Auto Detect" key="zusys_wrapper_hw_platform_0-device"/>
+	<item value="0x0" key="zusys_wrapper_hw_platform_0-offSet"/>
+	<item value="" key="zusys_wrapper_hw_platform_1-offSet"/>
+	<item value="false" key="zusys_wrapper_hw_platform_0-blankCheck"/>
+	<item value="qspi_dual_parallel" key="zusys_wrapper_hw_platform_0-flashType"/>
+	<item value="C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zynqmp_fsbl\output\BOOT.bin" key="zusys_wrapper_hw_platform_1-imgFile"/>
+	<item value="C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zynqmp_fsbl\output\BOOT.bin" key="zusys_wrapper_hw_platform_0-imgFile"/>
+	<item value="C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zynqmp_fsbl_flash\Debug\zynqmp_fsbl_flash.elf" key="zusys_wrapper_hw_platform_0-fsblFile"/>
+	<item value="Local" key="zusys_wrapper_hw_platform_0-target"/>
+	<item value="Local" key="zusys_wrapper_hw_platform_1-target"/>
+	<item value="false" key="zusys_wrapper_hw_platform_1-blankCheck"/>
+	<item value="C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zynqmp_fsbl\Debug\zynqmp_fsbl.elf" key="zusys_wrapper_hw_platform_1-fsblFile"/>
+</section>

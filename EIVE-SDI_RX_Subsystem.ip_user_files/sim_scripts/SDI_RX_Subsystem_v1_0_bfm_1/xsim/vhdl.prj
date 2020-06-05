@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_SDI_RX_Subsystem_0_0/src/tx_vio_i/sim/tx_vio_i.vhd" \
+"../../../bd/SDI_RX_Subsystem_v1_0_bfm_1/ipshared/33d1/hdl/SDI_RX_Subsystem_v1_0_S00_AXI.vhd" \
+"../../../bd/SDI_RX_Subsystem_v1_0_bfm_1/ipshared/33d1/src/bs_flex_v_2.vhd" \
+"../../../bd/SDI_RX_Subsystem_v1_0_bfm_1/ipshared/33d1/src/nidru_20_v_7.vhd" \
+"../../../bd/SDI_RX_Subsystem_v1_0_bfm_1/ipshared/33d1/src/nidru_20_wrapper.vhd" \
+"../../../../EIVE-SDI_RX_Subsystem.srcs/sources_1/bd/SDI_RX_Subsystem_v1_0_bfm_1/ipshared/33d1/hdl/SDI_RX_Subsystem_v1_0.vhd" \
+"../../../bd/SDI_RX_Subsystem_v1_0_bfm_1/ip/SDI_RX_Subsystem_v1_0_bfm_1_SDI_RX_Subsystem_0_0/sim/SDI_RX_Subsystem_v1_0_bfm_1_SDI_RX_Subsystem_0_0.vhd" \
+"../../../bd/SDI_RX_Subsystem_v1_0_bfm_1/sim/SDI_RX_Subsystem_v1_0_bfm_1.vhd" \
+
+nosort

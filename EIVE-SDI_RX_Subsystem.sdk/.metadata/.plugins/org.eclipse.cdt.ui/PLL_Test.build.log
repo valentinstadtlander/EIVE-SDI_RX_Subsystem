@@ -1,0 +1,29 @@
+11:32:57 **** Auto Build of configuration Debug for project PLL_Test ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PLL_Test_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:69:35: warning: passing argument 1 of 'Xil_In32' makes integer from pointer without a cast [-Wint-conversion]
+     xil_printf("%x\n\r", Xil_In32(Base_Addr_Ptr + 0x4));
+                                   ^~~~~~~~~~~~~
+In file included from ../src/helloworld.c:52:0:
+../../PLL_Test_bsp/psu_cortexa53_0/include/xil_io.h:151:19: note: expected 'UINTPTR {aka long unsigned int}' but argument is of type 'u8 * {aka unsigned char *}'
+ static INLINE u32 Xil_In32(UINTPTR Addr)
+                   ^~~~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: PLL_Test.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PLL_Test_bsp/psu_cortexa53_0/lib -o "PLL_Test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: PLL_Test.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size PLL_Test.elf  |tee "PLL_Test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  33212	   2360	  20672	  56244	   dbb4	PLL_Test.elf
+'Finished building: PLL_Test.elf.size'
+' '
+
+11:32:59 Build Finished (took 2s.19ms)
+

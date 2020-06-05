@@ -1,0 +1,42 @@
+11:45:13 **** Auto Build of configuration Debug for project zynqmp_fsbl_flash ****
+make all 
+'Building file: C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/psu_init.o" -Os -flto -ffat-lto-objects -I../../zynqmp_fsbl_flash_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/psu_init.d" -MT"src/psu_init.o" -o "src/psu_init.o" "C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c"
+C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c:15179:13: warning: 'dpll_prog' defined but not used [-Wunused-function]
+ static void dpll_prog(int ddr_pll_fbdiv, int d_lock_dly, int d_lock_cnt,
+             ^~~~~~~~~
+C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c:15172:12: warning: 'mask_read' defined but not used [-Wunused-function]
+ static u32 mask_read(u32 add, u32 mask)
+            ^~~~~~~~~
+'Finished building: C:/Users/st143005/Desktop/EIVE-SDI_RX_Subsystem/EIVE-SDI_RX_Subsystem.sdk/zusys_wrapper_hw_platform_0/psu_init.c'
+' '
+'Building file: ../src/xfsbl_handoff.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_handoff.o" -Os -flto -ffat-lto-objects -I../../zynqmp_fsbl_flash_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_handoff.d" -MT"src/xfsbl_handoff.o" -o "src/xfsbl_handoff.o" "../src/xfsbl_handoff.c"
+'Finished building: ../src/xfsbl_handoff.c'
+' '
+'Building file: ../src/xfsbl_hooks.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_hooks.o" -Os -flto -ffat-lto-objects -I../../zynqmp_fsbl_flash_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_hooks.d" -MT"src/xfsbl_hooks.o" -o "src/xfsbl_hooks.o" "../src/xfsbl_hooks.c"
+'Finished building: ../src/xfsbl_hooks.c'
+' '
+'Building file: ../src/xfsbl_partition_load.c'
+'Invoking: ARM v8 gcc compiler'
+aarch64-none-elf-gcc -DARMA53_64 -Wall -O0 -g3 -I"C:\Users\st143005\Desktop\EIVE-SDI_RX_Subsystem\EIVE-SDI_RX_Subsystem.sdk\zusys_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_partition_load.o" -Os -flto -ffat-lto-objects -I../../zynqmp_fsbl_flash_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_partition_load.d" -MT"src/xfsbl_partition_load.o" -o "src/xfsbl_partition_load.o" "../src/xfsbl_partition_load.c"
+'Finished building: ../src/xfsbl_partition_load.c'
+' '
+'Building target: zynqmp_fsbl_flash.elf'
+'Invoking: ARM v8 gcc linker'
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../zynqmp_fsbl_flash_bsp/psu_cortexa53_0/lib -o "zynqmp_fsbl_flash.elf"  ./src/psu_init.o ./src/xfsbl_authentication.o ./src/xfsbl_board.o ./src/xfsbl_bs.o ./src/xfsbl_csu_dma.o ./src/xfsbl_dfu_util.o ./src/xfsbl_exit.o ./src/xfsbl_handoff.o ./src/xfsbl_hooks.o ./src/xfsbl_image_header.o ./src/xfsbl_initialization.o ./src/xfsbl_main.o ./src/xfsbl_misc.o ./src/xfsbl_misc_drivers.o ./src/xfsbl_nand.o ./src/xfsbl_partition_load.o ./src/xfsbl_plpartition_valid.o ./src/xfsbl_qspi.o ./src/xfsbl_rsa_sha.o ./src/xfsbl_sd.o ./src/xfsbl_translation_table.o ./src/xfsbl_usb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -n
+'Finished building target: zynqmp_fsbl_flash.elf'
+' '
+'Invoking: ARM v8 Print Size'
+aarch64-none-elf-size zynqmp_fsbl_flash.elf  |tee "zynqmp_fsbl_flash.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  63968	   4752	  82616	 151336	  24f28	zynqmp_fsbl_flash.elf
+'Finished building: zynqmp_fsbl_flash.elf.size'
+' '
+
+11:45:20 Build Finished (took 6s.949ms)
+

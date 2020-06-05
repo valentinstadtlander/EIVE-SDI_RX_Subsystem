@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SDI_RX_Subsystem_v1_0_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SDI_RX_Subsystem_v1_0_tb" />
+            <top_module name="axi_vip_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="vcomponents" />
+            <top_module name="xil_common_vip_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="654824905350fs"></ZoomStartTime>
+      <ZoomEndTime time="654975505351fs"></ZoomEndTime>
+      <Cursor1Time time="654880000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="284"></NameColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="405" />
+   <wave_markers>
+      <marker time="654900000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/gth_n" type="logic">
+      <obj_property name="ElementShortName">gth_n</obj_property>
+      <obj_property name="ObjectShortName">gth_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/gth_p" type="logic">
+      <obj_property name="ElementShortName">gth_p</obj_property>
+      <obj_property name="ObjectShortName">gth_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_tx_reset_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_tx_reset_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_tx_reset_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_tx_srcclk_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_tx_srcclk_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_tx_srcclk_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_tx_usrclk_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_tx_usrclk_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_tx_usrclk_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_tx_usrclk2_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_tx_usrclk2_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_tx_usrclk2_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_tx_active_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_tx_active_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_tx_active_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_rx_reset_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_rx_reset_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_rx_reset_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_rx_srcclk_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_rx_srcclk_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_rx_srcclk_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_rx_usrclk_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_rx_usrclk_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_rx_usrclk_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_rx_usrclk2_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_rx_usrclk2_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_rx_usrclk2_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userclk_rx_active_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userclk_rx_active_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userclk_rx_active_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_clk_freerun_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_clk_freerun_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_clk_freerun_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_all_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_all_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_all_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_tx_pll_and_datapath_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_tx_pll_and_datapath_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_tx_pll_and_datapath_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_tx_datapath_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_tx_datapath_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_tx_datapath_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_rx_pll_and_datapath_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_rx_pll_and_datapath_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_rx_pll_and_datapath_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_rx_datapath_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_rx_datapath_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_rx_datapath_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_rx_cdr_stable_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_rx_cdr_stable_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_rx_cdr_stable_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_tx_done_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_tx_done_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_tx_done_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_reset_rx_done_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_reset_rx_done_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_reset_rx_done_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userdata_tx_in" type="array">
+      <obj_property name="ElementShortName">gtwiz_userdata_tx_in[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userdata_tx_in[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtwiz_userdata_rx_out" type="array">
+      <obj_property name="ElementShortName">gtwiz_userdata_rx_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gtwiz_userdata_rx_out[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /drpaddr_in" type="array">
+      <obj_property name="ElementShortName">drpaddr_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">drpaddr_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /drpclk_in" type="array">
+      <obj_property name="ElementShortName">drpclk_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">drpclk_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /drpdi_in" type="array">
+      <obj_property name="ElementShortName">drpdi_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">drpdi_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /drpen_in" type="array">
+      <obj_property name="ElementShortName">drpen_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">drpen_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /drpwe_in" type="array">
+      <obj_property name="ElementShortName">drpwe_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">drpwe_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gthrxn_in" type="array">
+      <obj_property name="ElementShortName">gthrxn_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gthrxn_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gthrxp_in" type="array">
+      <obj_property name="ElementShortName">gthrxp_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gthrxp_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtrefclk0_in" type="array">
+      <obj_property name="ElementShortName">gtrefclk0_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtrefclk0_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxcdrhold_in" type="array">
+      <obj_property name="ElementShortName">rxcdrhold_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxcdrhold_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfeagcovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfeagcovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfeagcovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfelfovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfelfovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfelfovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap10ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap10ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap10ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap11ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap11ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap11ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap12ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap12ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap12ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap13ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap13ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap13ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap14ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap14ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap14ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap15ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap15ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap15ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap2ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap2ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap2ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap3ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap3ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap3ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap4ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap4ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap4ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap5ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap5ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap5ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap6ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap6ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap6ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap7ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap7ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap7ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap8ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap8ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap8ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfetap9ovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfetap9ovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfetap9ovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxdfeutovrden_in" type="array">
+      <obj_property name="ElementShortName">rxdfeutovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxdfeutovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxlpmgcovrden_in" type="array">
+      <obj_property name="ElementShortName">rxlpmgcovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxlpmgcovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxlpmhfovrden_in" type="array">
+      <obj_property name="ElementShortName">rxlpmhfovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxlpmhfovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxlpmlfklovrden_in" type="array">
+      <obj_property name="ElementShortName">rxlpmlfklovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxlpmlfklovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxlpmosovrden_in" type="array">
+      <obj_property name="ElementShortName">rxlpmosovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxlpmosovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxosovrden_in" type="array">
+      <obj_property name="ElementShortName">rxosovrden_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxosovrden_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxpllclksel_in" type="array">
+      <obj_property name="ElementShortName">rxpllclksel_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rxpllclksel_in[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /txpllclksel_in" type="array">
+      <obj_property name="ElementShortName">txpllclksel_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">txpllclksel_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /txpmareset_in" type="array">
+      <obj_property name="ElementShortName">txpmareset_in[0:0]</obj_property>
+      <obj_property name="ObjectShortName">txpmareset_in[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /cplllock_out" type="array">
+      <obj_property name="ElementShortName">cplllock_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">cplllock_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /drpdo_out" type="array">
+      <obj_property name="ElementShortName">drpdo_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">drpdo_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /drprdy_out" type="array">
+      <obj_property name="ElementShortName">drprdy_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">drprdy_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gthtxn_out" type="array">
+      <obj_property name="ElementShortName">gthtxn_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gthtxn_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gthtxp_out" type="array">
+      <obj_property name="ElementShortName">gthtxp_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gthtxp_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gtpowergood_out" type="array">
+      <obj_property name="ElementShortName">gtpowergood_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gtpowergood_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /rxpmaresetdone_out" type="array">
+      <obj_property name="ElementShortName">rxpmaresetdone_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rxpmaresetdone_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /txbufstatus_out" type="array">
+      <obj_property name="ElementShortName">txbufstatus_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">txbufstatus_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /txpmaresetdone_out" type="array">
+      <obj_property name="ElementShortName">txpmaresetdone_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">txpmaresetdone_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider252">
+      <obj_property name="label">UHD_SDI_TXRX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_clk" type="logic">
+      <obj_property name="ElementShortName">rx_clk</obj_property>
+      <obj_property name="ObjectShortName">rx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_rst" type="logic">
+      <obj_property name="ElementShortName">rx_rst</obj_property>
+      <obj_property name="ObjectShortName">rx_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode_detect_rst" type="logic">
+      <obj_property name="ElementShortName">rx_mode_detect_rst</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_detect_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_data_in" type="array">
+      <obj_property name="ElementShortName">rx_data_in[19:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data_in[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_sd_data_strobe" type="logic">
+      <obj_property name="ElementShortName">rx_sd_data_strobe</obj_property>
+      <obj_property name="ObjectShortName">rx_sd_data_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_frame_en" type="logic">
+      <obj_property name="ElementShortName">rx_frame_en</obj_property>
+      <obj_property name="ObjectShortName">rx_frame_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_bit_rate" type="logic">
+      <obj_property name="ElementShortName">rx_bit_rate</obj_property>
+      <obj_property name="ObjectShortName">rx_bit_rate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode_enable" type="array">
+      <obj_property name="ElementShortName">rx_mode_enable[5:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_enable[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode_detect_en" type="logic">
+      <obj_property name="ElementShortName">rx_mode_detect_en</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_detect_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_forced_mode" type="array">
+      <obj_property name="ElementShortName">rx_forced_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_forced_mode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ready" type="logic">
+      <obj_property name="ElementShortName">rx_ready</obj_property>
+      <obj_property name="ObjectShortName">rx_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode" type="array">
+      <obj_property name="ElementShortName">rx_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode_hd" type="logic">
+      <obj_property name="ElementShortName">rx_mode_hd</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_hd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode_sd" type="logic">
+      <obj_property name="ElementShortName">rx_mode_sd</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_sd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode_3g" type="logic">
+      <obj_property name="ElementShortName">rx_mode_3g</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_3g</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_mode_locked" type="logic">
+      <obj_property name="ElementShortName">rx_mode_locked</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_t_locked" type="logic">
+      <obj_property name="ElementShortName">rx_t_locked</obj_property>
+      <obj_property name="ObjectShortName">rx_t_locked</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_t_family" type="array">
+      <obj_property name="ElementShortName">rx_t_family[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_t_family[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_t_rate" type="array">
+      <obj_property name="ElementShortName">rx_t_rate[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_t_rate[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_t_scan" type="logic">
+      <obj_property name="ElementShortName">rx_t_scan</obj_property>
+      <obj_property name="ObjectShortName">rx_t_scan</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_level_b_3g" type="logic">
+      <obj_property name="ElementShortName">rx_level_b_3g</obj_property>
+      <obj_property name="ObjectShortName">rx_level_b_3g</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ce_out" type="array">
+      <obj_property name="ElementShortName">rx_ce_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ce_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_active_streams" type="array">
+      <obj_property name="ElementShortName">rx_active_streams[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_active_streams[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ln_ds1" type="array">
+      <obj_property name="ElementShortName">rx_ln_ds1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ln_ds1[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ln_ds2" type="array">
+      <obj_property name="ElementShortName">rx_ln_ds2[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ln_ds2[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ln_ds3" type="array">
+      <obj_property name="ElementShortName">rx_ln_ds3[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ln_ds3[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ln_ds4" type="array">
+      <obj_property name="ElementShortName">rx_ln_ds4[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ln_ds4[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_st352_0" type="array">
+      <obj_property name="ElementShortName">rx_st352_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_st352_0_valid" type="logic">
+      <obj_property name="ElementShortName">rx_st352_0_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_0_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_st352_1" type="array">
+      <obj_property name="ElementShortName">rx_st352_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_st352_1_valid" type="logic">
+      <obj_property name="ElementShortName">rx_st352_1_valid</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_1_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_crc_err_ds1" type="logic">
+      <obj_property name="ElementShortName">rx_crc_err_ds1</obj_property>
+      <obj_property name="ObjectShortName">rx_crc_err_ds1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_crc_err_ds2" type="logic">
+      <obj_property name="ElementShortName">rx_crc_err_ds2</obj_property>
+      <obj_property name="ObjectShortName">rx_crc_err_ds2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_crc_err_ds3" type="logic">
+      <obj_property name="ElementShortName">rx_crc_err_ds3</obj_property>
+      <obj_property name="ObjectShortName">rx_crc_err_ds3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_crc_err_ds4" type="logic">
+      <obj_property name="ElementShortName">rx_crc_err_ds4</obj_property>
+      <obj_property name="ObjectShortName">rx_crc_err_ds4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ds1" type="array">
+      <obj_property name="ElementShortName">rx_ds1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds1[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ds2" type="array">
+      <obj_property name="ElementShortName">rx_ds2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds2[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ds3" type="array">
+      <obj_property name="ElementShortName">rx_ds3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds3[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_ds4" type="array">
+      <obj_property name="ElementShortName">rx_ds4[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds4[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_eav" type="logic">
+      <obj_property name="ElementShortName">rx_eav</obj_property>
+      <obj_property name="ObjectShortName">rx_eav</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_sav" type="logic">
+      <obj_property name="ElementShortName">rx_sav</obj_property>
+      <obj_property name="ObjectShortName">rx_sav</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_trs" type="logic">
+      <obj_property name="ElementShortName">rx_trs</obj_property>
+      <obj_property name="ObjectShortName">rx_trs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_errcnt_en" type="array">
+      <obj_property name="ElementShortName">rx_edh_errcnt_en[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_errcnt_en[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_clr_errcnt" type="logic">
+      <obj_property name="ElementShortName">rx_edh_clr_errcnt</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_clr_errcnt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_ap" type="logic">
+      <obj_property name="ElementShortName">rx_edh_ap</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ap</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_ff" type="logic">
+      <obj_property name="ElementShortName">rx_edh_ff</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_anc" type="logic">
+      <obj_property name="ElementShortName">rx_edh_anc</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_anc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_ap_flags" type="array">
+      <obj_property name="ElementShortName">rx_edh_ap_flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ap_flags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_ff_flags" type="array">
+      <obj_property name="ElementShortName">rx_edh_ff_flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ff_flags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_anc_flags" type="array">
+      <obj_property name="ElementShortName">rx_edh_anc_flags[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_anc_flags[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_packet_flags" type="array">
+      <obj_property name="ElementShortName">rx_edh_packet_flags[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_packet_flags[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/rx_edh_errcnt" type="array">
+      <obj_property name="ElementShortName">rx_edh_errcnt[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_errcnt[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_clk" type="logic">
+      <obj_property name="ElementShortName">tx_clk</obj_property>
+      <obj_property name="ObjectShortName">tx_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ce" type="logic">
+      <obj_property name="ElementShortName">tx_ce</obj_property>
+      <obj_property name="ObjectShortName">tx_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_sd_ce" type="logic">
+      <obj_property name="ElementShortName">tx_sd_ce</obj_property>
+      <obj_property name="ObjectShortName">tx_sd_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_edh_ce" type="logic">
+      <obj_property name="ElementShortName">tx_edh_ce</obj_property>
+      <obj_property name="ObjectShortName">tx_edh_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_rst" type="logic">
+      <obj_property name="ElementShortName">tx_rst</obj_property>
+      <obj_property name="ObjectShortName">tx_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_mode" type="array">
+      <obj_property name="ElementShortName">tx_mode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_insert_crc" type="logic">
+      <obj_property name="ElementShortName">tx_insert_crc</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_crc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_insert_ln" type="logic">
+      <obj_property name="ElementShortName">tx_insert_ln</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_ln</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_insert_st352" type="logic">
+      <obj_property name="ElementShortName">tx_insert_st352</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_st352</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_overwrite_st352" type="logic">
+      <obj_property name="ElementShortName">tx_overwrite_st352</obj_property>
+      <obj_property name="ObjectShortName">tx_overwrite_st352</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_insert_edh" type="logic">
+      <obj_property name="ElementShortName">tx_insert_edh</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_edh</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_mux_pattern" type="array">
+      <obj_property name="ElementShortName">tx_mux_pattern[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mux_pattern[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_insert_sync_bit" type="logic">
+      <obj_property name="ElementShortName">tx_insert_sync_bit</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_sync_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_sd_bitrep_bypass" type="logic">
+      <obj_property name="ElementShortName">tx_sd_bitrep_bypass</obj_property>
+      <obj_property name="ObjectShortName">tx_sd_bitrep_bypass</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_line_ch0" type="array">
+      <obj_property name="ElementShortName">tx_line_ch0[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_line_ch0[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_line_ch1" type="array">
+      <obj_property name="ElementShortName">tx_line_ch1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_line_ch1[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_st352_line_f1" type="array">
+      <obj_property name="ElementShortName">tx_st352_line_f1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_line_f1[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_st352_line_f2" type="array">
+      <obj_property name="ElementShortName">tx_st352_line_f2[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_line_f2[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_st352_f2_en" type="logic">
+      <obj_property name="ElementShortName">tx_st352_f2_en</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_f2_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_st352_data_ch0" type="array">
+      <obj_property name="ElementShortName">tx_st352_data_ch0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_data_ch0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_st352_data_ch1" type="array">
+      <obj_property name="ElementShortName">tx_st352_data_ch1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_data_ch1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds1_in" type="array">
+      <obj_property name="ElementShortName">tx_ds1_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds2_in" type="array">
+      <obj_property name="ElementShortName">tx_ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds3_in" type="array">
+      <obj_property name="ElementShortName">tx_ds3_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds3_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds4_in" type="array">
+      <obj_property name="ElementShortName">tx_ds4_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds4_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds1_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds1_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds2_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds2_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds3_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds3_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds3_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds4_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds4_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds4_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds1_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds1_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds2_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds2_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds3_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds3_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds3_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ds4_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds4_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds4_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_use_anc_in" type="logic">
+      <obj_property name="ElementShortName">tx_use_anc_in</obj_property>
+      <obj_property name="ObjectShortName">tx_use_anc_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_txdata" type="array">
+      <obj_property name="ElementShortName">tx_txdata[19:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_txdata[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_ce_align_err" type="logic">
+      <obj_property name="ElementShortName">tx_ce_align_err</obj_property>
+      <obj_property name="ObjectShortName">tx_ce_align_err</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider341">
+      <obj_property name="label">SDI_Wrapper</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_txdata_int" type="array">
+      <obj_property name="ElementShortName">gth_txdata_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_txdata_int[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/tx_txdata" type="array">
+      <obj_property name="ElementShortName">tx_txdata[19:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_txdata[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds1_in" type="array">
+      <obj_property name="ElementShortName">tx_ds1_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds2_in" type="array">
+      <obj_property name="ElementShortName">tx_ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxn_in" type="logic">
+      <obj_property name="ElementShortName">gth_rxn_in</obj_property>
+      <obj_property name="ObjectShortName">gth_rxn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxp_in" type="logic">
+      <obj_property name="ElementShortName">gth_rxp_in</obj_property>
+      <obj_property name="ObjectShortName">gth_rxp_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_fxdclk_in" type="logic">
+      <obj_property name="ElementShortName">rx_fxdclk_in</obj_property>
+      <obj_property name="ObjectShortName">rx_fxdclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_rst_in" type="logic">
+      <obj_property name="ElementShortName">rx_rst_in</obj_property>
+      <obj_property name="ObjectShortName">rx_rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_fabric_rst_out" type="logic">
+      <obj_property name="ElementShortName">rx_fabric_rst_out</obj_property>
+      <obj_property name="ObjectShortName">rx_fabric_rst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_usrclk_out" type="logic">
+      <obj_property name="ElementShortName">rx_usrclk_out</obj_property>
+      <obj_property name="ObjectShortName">rx_usrclk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_detect_rst_in" type="logic">
+      <obj_property name="ElementShortName">rx_mode_detect_rst_in</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_detect_rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_en_in" type="array">
+      <obj_property name="ElementShortName">rx_mode_en_in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_en_in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_detect_en_in" type="logic">
+      <obj_property name="ElementShortName">rx_mode_detect_en_in</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_detect_en_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_forced_mode_in" type="array">
+      <obj_property name="ElementShortName">rx_forced_mode_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_forced_mode_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_out" type="array">
+      <obj_property name="ElementShortName">rx_mode_out[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_out[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_hd_out" type="logic">
+      <obj_property name="ElementShortName">rx_mode_hd_out</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_hd_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_sd_out" type="logic">
+      <obj_property name="ElementShortName">rx_mode_sd_out</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_sd_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_3g_out" type="logic">
+      <obj_property name="ElementShortName">rx_mode_3g_out</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_3g_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_locked_out" type="logic">
+      <obj_property name="ElementShortName">rx_mode_locked_out</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_locked_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_bit_rate_out" type="logic">
+      <obj_property name="ElementShortName">rx_bit_rate_out</obj_property>
+      <obj_property name="ObjectShortName">rx_bit_rate_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_t_locked_out" type="logic">
+      <obj_property name="ElementShortName">rx_t_locked_out</obj_property>
+      <obj_property name="ObjectShortName">rx_t_locked_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_t_family_out" type="array">
+      <obj_property name="ElementShortName">rx_t_family_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_t_family_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_t_rate_out" type="array">
+      <obj_property name="ElementShortName">rx_t_rate_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_t_rate_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_t_scan_out" type="logic">
+      <obj_property name="ElementShortName">rx_t_scan_out</obj_property>
+      <obj_property name="ObjectShortName">rx_t_scan_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_level_b_3g_out" type="logic">
+      <obj_property name="ElementShortName">rx_level_b_3g_out</obj_property>
+      <obj_property name="ObjectShortName">rx_level_b_3g_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_ce_out" type="logic">
+      <obj_property name="ElementShortName">rx_ce_out</obj_property>
+      <obj_property name="ObjectShortName">rx_ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_active_streams_out" type="array">
+      <obj_property name="ElementShortName">rx_active_streams_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_active_streams_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_line_0_out" type="array">
+      <obj_property name="ElementShortName">rx_line_0_out[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_line_0_out[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_line_1_out" type="array">
+      <obj_property name="ElementShortName">rx_line_1_out[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_line_1_out[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_st352_0_out" type="array">
+      <obj_property name="ElementShortName">rx_st352_0_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_0_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_st352_0_valid_out" type="logic">
+      <obj_property name="ElementShortName">rx_st352_0_valid_out</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_0_valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_st352_1_out" type="array">
+      <obj_property name="ElementShortName">rx_st352_1_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_1_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_st352_1_valid_out" type="logic">
+      <obj_property name="ElementShortName">rx_st352_1_valid_out</obj_property>
+      <obj_property name="ObjectShortName">rx_st352_1_valid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_crc_err_out" type="array">
+      <obj_property name="ElementShortName">rx_crc_err_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_crc_err_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_ds1_out" type="array">
+      <obj_property name="ElementShortName">rx_ds1_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds1_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_ds2_out" type="array">
+      <obj_property name="ElementShortName">rx_ds2_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds2_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_ds3_out" type="array">
+      <obj_property name="ElementShortName">rx_ds3_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds3_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_ds4_out" type="array">
+      <obj_property name="ElementShortName">rx_ds4_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_ds4_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_eav_out" type="logic">
+      <obj_property name="ElementShortName">rx_eav_out</obj_property>
+      <obj_property name="ObjectShortName">rx_eav_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_sav_out" type="logic">
+      <obj_property name="ElementShortName">rx_sav_out</obj_property>
+      <obj_property name="ObjectShortName">rx_sav_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_trs_out" type="logic">
+      <obj_property name="ElementShortName">rx_trs_out</obj_property>
+      <obj_property name="ObjectShortName">rx_trs_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_errcnt_en_in" type="array">
+      <obj_property name="ElementShortName">rx_edh_errcnt_en_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_errcnt_en_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_clr_errcnt_in" type="logic">
+      <obj_property name="ElementShortName">rx_edh_clr_errcnt_in</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_clr_errcnt_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_ap_out" type="logic">
+      <obj_property name="ElementShortName">rx_edh_ap_out</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ap_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_ff_out" type="logic">
+      <obj_property name="ElementShortName">rx_edh_ff_out</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ff_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_anc_out" type="logic">
+      <obj_property name="ElementShortName">rx_edh_anc_out</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_anc_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_ap_flags_out" type="array">
+      <obj_property name="ElementShortName">rx_edh_ap_flags_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ap_flags_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_ff_flags_out" type="array">
+      <obj_property name="ElementShortName">rx_edh_ff_flags_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_ff_flags_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_anc_flags_out" type="array">
+      <obj_property name="ElementShortName">rx_edh_anc_flags_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_anc_flags_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_packet_flags_out" type="array">
+      <obj_property name="ElementShortName">rx_edh_packet_flags_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_packet_flags_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_errcnt_out" type="array">
+      <obj_property name="ElementShortName">rx_edh_errcnt_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_errcnt_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_change_done_out" type="logic">
+      <obj_property name="ElementShortName">rx_change_done_out</obj_property>
+      <obj_property name="ObjectShortName">rx_change_done_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_change_fail_out" type="logic">
+      <obj_property name="ElementShortName">rx_change_fail_out</obj_property>
+      <obj_property name="ObjectShortName">rx_change_fail_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_change_fail_code_out" type="array">
+      <obj_property name="ElementShortName">rx_change_fail_code_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_change_fail_code_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_rst_in" type="logic">
+      <obj_property name="ElementShortName">tx_rst_in</obj_property>
+      <obj_property name="ObjectShortName">tx_rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_fabric_rst_out" type="logic">
+      <obj_property name="ElementShortName">tx_fabric_rst_out</obj_property>
+      <obj_property name="ObjectShortName">tx_fabric_rst_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_usrclk_out" type="logic">
+      <obj_property name="ElementShortName">tx_usrclk_out</obj_property>
+      <obj_property name="ObjectShortName">tx_usrclk_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ce_in" type="logic">
+      <obj_property name="ElementShortName">tx_ce_in</obj_property>
+      <obj_property name="ObjectShortName">tx_ce_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_sd_ce_in" type="logic">
+      <obj_property name="ElementShortName">tx_sd_ce_in</obj_property>
+      <obj_property name="ObjectShortName">tx_sd_ce_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_edh_ce_in" type="logic">
+      <obj_property name="ElementShortName">tx_edh_ce_in</obj_property>
+      <obj_property name="ObjectShortName">tx_edh_ce_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_mode_in" type="array">
+      <obj_property name="ElementShortName">tx_mode_in[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mode_in[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_m_in" type="logic">
+      <obj_property name="ElementShortName">tx_m_in</obj_property>
+      <obj_property name="ObjectShortName">tx_m_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_insert_crc_in" type="logic">
+      <obj_property name="ElementShortName">tx_insert_crc_in</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_crc_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_insert_ln_in" type="logic">
+      <obj_property name="ElementShortName">tx_insert_ln_in</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_ln_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_insert_st352_in" type="logic">
+      <obj_property name="ElementShortName">tx_insert_st352_in</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_st352_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_overwrite_st352_in" type="logic">
+      <obj_property name="ElementShortName">tx_overwrite_st352_in</obj_property>
+      <obj_property name="ObjectShortName">tx_overwrite_st352_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_insert_edh_in" type="logic">
+      <obj_property name="ElementShortName">tx_insert_edh_in</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_edh_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_mux_pattern_in" type="array">
+      <obj_property name="ElementShortName">tx_mux_pattern_in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mux_pattern_in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_insert_sync_bit_in" type="logic">
+      <obj_property name="ElementShortName">tx_insert_sync_bit_in</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_sync_bit_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_line_0_in" type="array">
+      <obj_property name="ElementShortName">tx_line_0_in[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_line_0_in[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_line_1_in" type="array">
+      <obj_property name="ElementShortName">tx_line_1_in[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_line_1_in[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_st352_line_f1_in" type="array">
+      <obj_property name="ElementShortName">tx_st352_line_f1_in[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_line_f1_in[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_st352_line_f2_in" type="array">
+      <obj_property name="ElementShortName">tx_st352_line_f2_in[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_line_f2_in[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_st352_f2_en_in" type="logic">
+      <obj_property name="ElementShortName">tx_st352_f2_en_in</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_f2_en_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_st352_data_0_in" type="array">
+      <obj_property name="ElementShortName">tx_st352_data_0_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_data_0_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_st352_data_1_in" type="array">
+      <obj_property name="ElementShortName">tx_st352_data_1_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_data_1_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds1_in" type="array">
+      <obj_property name="ElementShortName">tx_ds1_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds2_in" type="array">
+      <obj_property name="ElementShortName">tx_ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds3_in" type="array">
+      <obj_property name="ElementShortName">tx_ds3_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds3_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds4_in" type="array">
+      <obj_property name="ElementShortName">tx_ds4_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds4_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds1_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds1_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds2_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds2_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds3_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds3_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds3_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds4_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds4_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds4_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds1_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds1_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds2_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds2_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds3_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds3_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds3_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ds4_anc_in" type="array">
+      <obj_property name="ElementShortName">tx_ds4_anc_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds4_anc_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_use_anc_in" type="logic">
+      <obj_property name="ElementShortName">tx_use_anc_in</obj_property>
+      <obj_property name="ObjectShortName">tx_use_anc_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_ce_align_err_out" type="logic">
+      <obj_property name="ElementShortName">tx_ce_align_err_out</obj_property>
+      <obj_property name="ObjectShortName">tx_ce_align_err_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_slew_out" type="logic">
+      <obj_property name="ElementShortName">tx_slew_out</obj_property>
+      <obj_property name="ObjectShortName">tx_slew_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_change_done_out" type="logic">
+      <obj_property name="ElementShortName">tx_change_done_out</obj_property>
+      <obj_property name="ObjectShortName">tx_change_done_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_change_fail_out" type="logic">
+      <obj_property name="ElementShortName">tx_change_fail_out</obj_property>
+      <obj_property name="ObjectShortName">tx_change_fail_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_change_fail_code_out" type="array">
+      <obj_property name="ElementShortName">tx_change_fail_code_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_change_fail_code_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/drp_fail_out" type="logic">
+      <obj_property name="ElementShortName">drp_fail_out</obj_property>
+      <obj_property name="ObjectShortName">drp_fail_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/drp_fail_cnt_out" type="array">
+      <obj_property name="ElementShortName">drp_fail_cnt_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">drp_fail_cnt_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_wiz_reset_all_in" type="logic">
+      <obj_property name="ElementShortName">gth_wiz_reset_all_in</obj_property>
+      <obj_property name="ObjectShortName">gth_wiz_reset_all_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_wiz_reset_tx_pll_and_datapath_in" type="logic">
+      <obj_property name="ElementShortName">gth_wiz_reset_tx_pll_and_datapath_in</obj_property>
+      <obj_property name="ObjectShortName">gth_wiz_reset_tx_pll_and_datapath_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_wiz_reset_rx_pll_and_datapath_in" type="logic">
+      <obj_property name="ElementShortName">gth_wiz_reset_rx_pll_and_datapath_in</obj_property>
+      <obj_property name="ObjectShortName">gth_wiz_reset_rx_pll_and_datapath_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_wiz_txresetdone_out" type="logic">
+      <obj_property name="ElementShortName">gth_wiz_txresetdone_out</obj_property>
+      <obj_property name="ObjectShortName">gth_wiz_txresetdone_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_wiz_rxresetdone_out" type="logic">
+      <obj_property name="ElementShortName">gth_wiz_rxresetdone_out</obj_property>
+      <obj_property name="ObjectShortName">gth_wiz_rxresetdone_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/ACLK" type="logic">
+      <obj_property name="ElementShortName">ACLK</obj_property>
+      <obj_property name="ObjectShortName">ACLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_drpclk_in" type="logic">
+      <obj_property name="ElementShortName">gth_drpclk_in</obj_property>
+      <obj_property name="ObjectShortName">gth_drpclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_qpll0_clk_in" type="logic">
+      <obj_property name="ElementShortName">gth_qpll0_clk_in</obj_property>
+      <obj_property name="ObjectShortName">gth_qpll0_clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_qpll0_refclk_in" type="logic">
+      <obj_property name="ElementShortName">gth_qpll0_refclk_in</obj_property>
+      <obj_property name="ObjectShortName">gth_qpll0_refclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_qpll0_lock_in" type="logic">
+      <obj_property name="ElementShortName">gth_qpll0_lock_in</obj_property>
+      <obj_property name="ObjectShortName">gth_qpll0_lock_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_qpll1_clk_in" type="logic">
+      <obj_property name="ElementShortName">gth_qpll1_clk_in</obj_property>
+      <obj_property name="ObjectShortName">gth_qpll1_clk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_qpll1_refclk_in" type="logic">
+      <obj_property name="ElementShortName">gth_qpll1_refclk_in</obj_property>
+      <obj_property name="ObjectShortName">gth_qpll1_refclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_qpll1_lock_in" type="logic">
+      <obj_property name="ElementShortName">gth_qpll1_lock_in</obj_property>
+      <obj_property name="ObjectShortName">gth_qpll1_lock_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_cpll_refclk_in" type="logic">
+      <obj_property name="ElementShortName">gth_cpll_refclk_in</obj_property>
+      <obj_property name="ObjectShortName">gth_cpll_refclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_cpll_lock_out" type="logic">
+      <obj_property name="ElementShortName">gth_cpll_lock_out</obj_property>
+      <obj_property name="ObjectShortName">gth_cpll_lock_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxn_in" type="logic">
+      <obj_property name="ElementShortName">gth_rxn_in</obj_property>
+      <obj_property name="ObjectShortName">gth_rxn_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxp_in" type="logic">
+      <obj_property name="ElementShortName">gth_rxp_in</obj_property>
+      <obj_property name="ObjectShortName">gth_rxp_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_txn_out" type="logic">
+      <obj_property name="ElementShortName">gth_txn_out</obj_property>
+      <obj_property name="ObjectShortName">gth_txn_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_txp_out" type="logic">
+      <obj_property name="ElementShortName">gth_txp_out</obj_property>
+      <obj_property name="ObjectShortName">gth_txp_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/tx_rst_in_sync" type="logic">
+      <obj_property name="ElementShortName">tx_rst_in_sync</obj_property>
+      <obj_property name="ObjectShortName">tx_rst_in_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_rst_in_sync" type="logic">
+      <obj_property name="ElementShortName">rx_rst_in_sync</obj_property>
+      <obj_property name="ObjectShortName">rx_rst_in_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_edh_clr_errcnt_in_sync" type="logic">
+      <obj_property name="ElementShortName">rx_edh_clr_errcnt_in_sync</obj_property>
+      <obj_property name="ObjectShortName">rx_edh_clr_errcnt_in_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_sd_rxdata_int" type="array">
+      <obj_property name="ElementShortName">rx_sd_rxdata_int[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_sd_rxdata_int[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_sd_data_strobe_int" type="logic">
+      <obj_property name="ElementShortName">rx_sd_data_strobe_int</obj_property>
+      <obj_property name="ObjectShortName">rx_sd_data_strobe_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_bit_rate" type="logic">
+      <obj_property name="ElementShortName">rx_bit_rate</obj_property>
+      <obj_property name="ObjectShortName">rx_bit_rate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/rx_mode_int" type="array">
+      <obj_property name="ElementShortName">rx_mode_int[2:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_mode_int[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_drprdy_int" type="logic">
+      <obj_property name="ElementShortName">gth_drprdy_int</obj_property>
+      <obj_property name="ObjectShortName">gth_drprdy_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_drpaddr_int" type="array">
+      <obj_property name="ElementShortName">gth_drpaddr_int[8:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_drpaddr_int[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_drpdi_int" type="array">
+      <obj_property name="ElementShortName">gth_drpdi_int[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_drpdi_int[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_drpdo_int" type="array">
+      <obj_property name="ElementShortName">gth_drpdo_int[15:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_drpdo_int[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_drpen_int" type="logic">
+      <obj_property name="ElementShortName">gth_drpen_int</obj_property>
+      <obj_property name="ObjectShortName">gth_drpen_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_drpwe_int" type="logic">
+      <obj_property name="ElementShortName">gth_drpwe_int</obj_property>
+      <obj_property name="ObjectShortName">gth_drpwe_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxdata_int" type="array">
+      <obj_property name="ElementShortName">gth_rxdata_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_rxdata_int[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxdata_gt" type="array">
+      <obj_property name="ElementShortName">gth_rxdata_gt[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_rxdata_gt[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_gtrxreset_int" type="logic">
+      <obj_property name="ElementShortName">gth_gtrxreset_int</obj_property>
+      <obj_property name="ObjectShortName">gth_gtrxreset_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxpllclksel_int" type="array">
+      <obj_property name="ElementShortName">gth_rxpllclksel_int[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_rxpllclksel_int[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_rxcdrhold_int" type="logic">
+      <obj_property name="ElementShortName">gth_rxcdrhold_int</obj_property>
+      <obj_property name="ObjectShortName">gth_rxcdrhold_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_txdata_int" type="array">
+      <obj_property name="ElementShortName">gth_txdata_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_txdata_int[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_gttxreset_int" type="logic">
+      <obj_property name="ElementShortName">gth_gttxreset_int</obj_property>
+      <obj_property name="ObjectShortName">gth_gttxreset_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_txpllclksel_int" type="array">
+      <obj_property name="ElementShortName">gth_txpllclksel_int[1:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_txpllclksel_int[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/txbufstatus_int" type="array">
+      <obj_property name="ElementShortName">txbufstatus_int[1:0]</obj_property>
+      <obj_property name="ObjectShortName">txbufstatus_int[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/qpll0reset_in" type="logic">
+      <obj_property name="ElementShortName">qpll0reset_in</obj_property>
+      <obj_property name="ObjectShortName">qpll0reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/qpll1reset_in" type="logic">
+      <obj_property name="ElementShortName">qpll1reset_in</obj_property>
+      <obj_property name="ObjectShortName">qpll1reset_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/TXPLLCLKSEL_TX_M_0" type="array">
+      <obj_property name="ElementShortName">TXPLLCLKSEL_TX_M_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">TXPLLCLKSEL_TX_M_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/TXPLLCLKSEL_TX_M_1" type="array">
+      <obj_property name="ElementShortName">TXPLLCLKSEL_TX_M_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">TXPLLCLKSEL_TX_M_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/RX_FXDCLK_FREQ" type="array">
+      <obj_property name="ElementShortName">RX_FXDCLK_FREQ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RX_FXDCLK_FREQ[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/RXPLLCLKSEL_RX_M_0" type="array">
+      <obj_property name="ElementShortName">RXPLLCLKSEL_RX_M_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RXPLLCLKSEL_RX_M_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/RXPLLCLKSEL_RX_M_1" type="array">
+      <obj_property name="ElementShortName">RXPLLCLKSEL_RX_M_1[1:0]</obj_property>
+      <obj_property name="ObjectShortName">RXPLLCLKSEL_RX_M_1[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/XY_SITE" type="array">
+      <obj_property name="ElementShortName">XY_SITE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">XY_SITE[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/EN_HOT_PLUG_LOGIC" type="array">
+      <obj_property name="ElementShortName">EN_HOT_PLUG_LOGIC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EN_HOT_PLUG_LOGIC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/MODE_SD" type="array">
+      <obj_property name="ElementShortName">MODE_SD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_SD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/MODE_HD" type="array">
+      <obj_property name="ElementShortName">MODE_HD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_HD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/MODE_3G" type="array">
+      <obj_property name="ElementShortName">MODE_3G[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_3G[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/MODE_6G" type="array">
+      <obj_property name="ElementShortName">MODE_6G[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_6G[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/MODE_12G_0" type="array">
+      <obj_property name="ElementShortName">MODE_12G_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_12G_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/MODE_12G_1" type="array">
+      <obj_property name="ElementShortName">MODE_12G_1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">MODE_12G_1[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/tx_ds1_in" type="array">
+      <obj_property name="ElementShortName">tx_ds1_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/tx_ds2_in" type="array">
+      <obj_property name="ElementShortName">tx_ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/ds1_in" type="array">
+      <obj_property name="ElementShortName">ds1_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds1_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/ds2_in" type="array">
+      <obj_property name="ElementShortName">ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds2_in[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/INSLN/y_in" type="array">
+      <obj_property name="ElementShortName">y_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">y_in[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/tx_rst_in" type="logic">
+      <obj_property name="ElementShortName">tx_rst_in</obj_property>
+      <obj_property name="ObjectShortName">tx_rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/tx_ce_in" type="logic">
+      <obj_property name="ElementShortName">tx_ce_in</obj_property>
+      <obj_property name="ObjectShortName">tx_ce_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/tx_sd_ce_in" type="logic">
+      <obj_property name="ElementShortName">tx_sd_ce_in</obj_property>
+      <obj_property name="ObjectShortName">tx_sd_ce_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/tx_edh_ce_in" type="logic">
+      <obj_property name="ElementShortName">tx_edh_ce_in</obj_property>
+      <obj_property name="ObjectShortName">tx_edh_ce_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/y_in" type="array">
+      <obj_property name="ElementShortName">y_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">y_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/cs_reg" type="array">
+      <obj_property name="ElementShortName">cs_reg[8:0]</obj_property>
+      <obj_property name="ObjectShortName">cs_reg[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/vid_dly" type="array">
+      <obj_property name="ElementShortName">vid_dly[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_dly[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/vid_out" type="array">
+      <obj_property name="ElementShortName">vid_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/MUX_SEL_VID" type="array">
+      <obj_property name="ElementShortName">MUX_SEL_VID[3:0]</obj_property>
+      <obj_property name="ObjectShortName">MUX_SEL_VID[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/y_out" type="array">
+      <obj_property name="ElementShortName">y_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">y_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ds1_ln_out" type="array">
+      <obj_property name="ElementShortName">ds1_ln_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds1_ln_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ds1_st352_out" type="array">
+      <obj_property name="ElementShortName">ds1_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds1_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/tx_ds1_st352_out" type="array">
+      <obj_property name="ElementShortName">tx_ds1_st352_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_st352_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /inst/gthtxp_out" type="array">
+      <obj_property name="ElementShortName">gthtxp_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gthtxp_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /gthtxp_out" type="array">
+      <obj_property name="ElementShortName">gthtxp_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gthtxp_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /inst/\gen_gtwizard_gthe4_top.v_smpte_uhdsdi_gtwiz_gtwizard_gthe4_inst /gthtxp_out" type="array">
+      <obj_property name="ElementShortName">gthtxp_out[0:0]</obj_property>
+      <obj_property name="ObjectShortName">gthtxp_out[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_txp_out" type="logic">
+      <obj_property name="ElementShortName">gth_txp_out</obj_property>
+      <obj_property name="ObjectShortName">gth_txp_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /inst/\gen_gtwizard_gthe4_top.v_smpte_uhdsdi_gtwiz_gtwizard_gthe4_inst /\gen_gtwizard_gthe4.gen_channel_container[25].gen_enabled_channel.gthe4_channel_wrapper_inst /GTHE4_CHANNEL_GTHTXP" type="array">
+      <obj_property name="ElementShortName">GTHE4_CHANNEL_GTHTXP[0:0]</obj_property>
+      <obj_property name="ObjectShortName">GTHE4_CHANNEL_GTHTXP[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /inst/\gen_gtwizard_gthe4_top.v_smpte_uhdsdi_gtwiz_gtwizard_gthe4_inst /\gen_gtwizard_gthe4.gen_channel_container[25].gen_enabled_channel.gthe4_channel_wrapper_inst /channel_inst/GTHE4_CHANNEL_GTHTXP" type="array">
+      <obj_property name="ElementShortName">GTHE4_CHANNEL_GTHTXP[0:0]</obj_property>
+      <obj_property name="ObjectShortName">GTHE4_CHANNEL_GTHTXP[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /inst/\gen_gtwizard_gthe4_top.v_smpte_uhdsdi_gtwiz_gtwizard_gthe4_inst /\gen_gtwizard_gthe4.gthtxp_int " type="array">
+      <obj_property name="ElementShortName">\gen_gtwizard_gthe4.gthtxp_int [0:0]</obj_property>
+      <obj_property name="ObjectShortName">\gen_gtwizard_gthe4.gthtxp_int [0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /inst/\gen_gtwizard_gthe4_top.v_smpte_uhdsdi_gtwiz_gtwizard_gthe4_inst /txdata_in" type="array">
+      <obj_property name="ElementShortName">txdata_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">txdata_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/\genblk1.uhdsdi_gtwiz_i /inst/\gen_gtwizard_gthe4_top.v_smpte_uhdsdi_gtwiz_gtwizard_gthe4_inst /\gen_gtwizard_gthe4.gen_tx_userdata_internal.gtwiz_userdata_tx_inst /txdata_out" type="array">
+      <obj_property name="ElementShortName">txdata_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">txdata_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/gth_txdata_int" type="array">
+      <obj_property name="ElementShortName">gth_txdata_int[19:0]</obj_property>
+      <obj_property name="ObjectShortName">gth_txdata_int[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/txdata" type="array">
+      <obj_property name="ElementShortName">txdata[39:0]</obj_property>
+      <obj_property name="ObjectShortName">txdata[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/txdata_reg" type="array">
+      <obj_property name="ElementShortName">txdata_reg[39:0]</obj_property>
+      <obj_property name="ObjectShortName">txdata_reg[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/sd_bit_rep_out" type="array">
+      <obj_property name="ElementShortName">sd_bit_rep_out[19:0]</obj_property>
+      <obj_property name="ObjectShortName">sd_bit_rep_out[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/scram_out" type="array">
+      <obj_property name="ElementShortName">scram_out[39:0]</obj_property>
+      <obj_property name="ObjectShortName">scram_out[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/sync_insert_out" type="array">
+      <obj_property name="ElementShortName">sync_insert_out[39:0]</obj_property>
+      <obj_property name="ObjectShortName">sync_insert_out[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/mux_out" type="array">
+      <obj_property name="ElementShortName">mux_out[39:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/sync_insert_mux" type="array">
+      <obj_property name="ElementShortName">sync_insert_mux[39:0]</obj_property>
+      <obj_property name="ObjectShortName">sync_insert_mux[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/SCRAM/d" type="array">
+      <obj_property name="ElementShortName">d[39:0]</obj_property>
+      <obj_property name="ObjectShortName">d[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/SCRAM/in_reg" type="array">
+      <obj_property name="ElementShortName">in_reg[39:0]</obj_property>
+      <obj_property name="ObjectShortName">in_reg[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/SCRAM/q" type="array">
+      <obj_property name="ElementShortName">q[39:0]</obj_property>
+      <obj_property name="ObjectShortName">q[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/DSMUX/pat_reg" type="array">
+      <obj_property name="ElementShortName">pat_reg[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pat_reg[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/ds1" type="array">
+      <obj_property name="ElementShortName">ds1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds1[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXOUT/ds2" type="array">
+      <obj_property name="ElementShortName">ds2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds2[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/ch1_in_mux" type="array">
+      <obj_property name="ElementShortName">ch1_in_mux[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ch1_in_mux[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/tx_ds1_in" type="array">
+      <obj_property name="ElementShortName">tx_ds1_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds1_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/tx_ds2_in" type="array">
+      <obj_property name="ElementShortName">tx_ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ds2_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/ds2_in" type="array">
+      <obj_property name="ElementShortName">ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds2_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ds2_in" type="array">
+      <obj_property name="ElementShortName">ds2_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds2_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/c_in" type="array">
+      <obj_property name="ElementShortName">c_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">c_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/CH0/ST352/c_out" type="array">
+      <obj_property name="ElementShortName">c_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">c_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/edh_mux" type="array">
+      <obj_property name="ElementShortName">edh_mux[9:0]</obj_property>
+      <obj_property name="ObjectShortName">edh_mux[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/ds1_ch_out" type="array">
+      <obj_property name="ElementShortName">ds1_ch_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">ds1_ch_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/UHD_SDI_Wrapper_Support_inst/sdi_wrapper/uhdsdirxtx/inst/TX/TXEDH/vid_in" type="array">
+      <obj_property name="ElementShortName">vid_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_in[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider378">
+      <obj_property name="label">UHDSDI_VIDGEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_usrclk_in" type="logic">
+      <obj_property name="ElementShortName">tx_usrclk_in</obj_property>
+      <obj_property name="ObjectShortName">tx_usrclk_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_change_done_in" type="logic">
+      <obj_property name="ElementShortName">tx_change_done_in</obj_property>
+      <obj_property name="ObjectShortName">tx_change_done_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_change_fail_in" type="logic">
+      <obj_property name="ElementShortName">tx_change_fail_in</obj_property>
+      <obj_property name="ObjectShortName">tx_change_fail_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_change_fail_code_in" type="array">
+      <obj_property name="ElementShortName">tx_change_fail_code_in[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_change_fail_code_in[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_gttxreset_out" type="logic">
+      <obj_property name="ElementShortName">tx_gttxreset_out</obj_property>
+      <obj_property name="ObjectShortName">tx_gttxreset_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_full_reset_out" type="logic">
+      <obj_property name="ElementShortName">tx_full_reset_out</obj_property>
+      <obj_property name="ObjectShortName">tx_full_reset_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_fabric_rst_in" type="logic">
+      <obj_property name="ElementShortName">tx_fabric_rst_in</obj_property>
+      <obj_property name="ObjectShortName">tx_fabric_rst_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_txen_out" type="logic">
+      <obj_property name="ElementShortName">tx_txen_out</obj_property>
+      <obj_property name="ObjectShortName">tx_txen_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_ce_out" type="logic">
+      <obj_property name="ElementShortName">tx_ce_out</obj_property>
+      <obj_property name="ObjectShortName">tx_ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_sd_ce_out" type="logic">
+      <obj_property name="ElementShortName">tx_sd_ce_out</obj_property>
+      <obj_property name="ObjectShortName">tx_sd_ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_edh_ce_out" type="logic">
+      <obj_property name="ElementShortName">tx_edh_ce_out</obj_property>
+      <obj_property name="ObjectShortName">tx_edh_ce_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_mux_pattern_out" type="array">
+      <obj_property name="ElementShortName">tx_mux_pattern_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mux_pattern_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_mode_out" type="array">
+      <obj_property name="ElementShortName">tx_mode_out[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mode_out[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_m_out" type="logic">
+      <obj_property name="ElementShortName">tx_m_out</obj_property>
+      <obj_property name="ObjectShortName">tx_m_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_m_in" type="logic">
+      <obj_property name="ElementShortName">tx_m_in</obj_property>
+      <obj_property name="ObjectShortName">tx_m_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_c_out" type="array">
+      <obj_property name="ElementShortName">tx_c_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_c_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_y_out" type="array">
+      <obj_property name="ElementShortName">tx_y_out[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_y_out[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_line_out" type="array">
+      <obj_property name="ElementShortName">tx_line_out[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_line_out[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_insert_vpid_out" type="logic">
+      <obj_property name="ElementShortName">tx_insert_vpid_out</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_vpid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_st352_data_out" type="array">
+      <obj_property name="ElementShortName">tx_st352_data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_st352_line_f1_out" type="array">
+      <obj_property name="ElementShortName">tx_st352_line_f1_out[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_line_f1_out[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_st352_line_f2_out" type="array">
+      <obj_property name="ElementShortName">tx_st352_line_f2_out[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_line_f2_out[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_st352_line_f2_en_out" type="logic">
+      <obj_property name="ElementShortName">tx_st352_line_f2_en_out</obj_property>
+      <obj_property name="ObjectShortName">tx_st352_line_f2_en_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_insert_sync_bit_out" type="logic">
+      <obj_property name="ElementShortName">tx_insert_sync_bit_out</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_sync_bit_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_change_done" type="logic">
+      <obj_property name="ElementShortName">tx_change_done</obj_property>
+      <obj_property name="ObjectShortName">tx_change_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_change_fail" type="logic">
+      <obj_property name="ElementShortName">tx_change_fail</obj_property>
+      <obj_property name="ObjectShortName">tx_change_fail</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_change_fail_code" type="array">
+      <obj_property name="ElementShortName">tx_change_fail_code[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_change_fail_code[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_m" type="logic">
+      <obj_property name="ElementShortName">tx_m</obj_property>
+      <obj_property name="ObjectShortName">tx_m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_txen" type="logic">
+      <obj_property name="ElementShortName">tx_txen</obj_property>
+      <obj_property name="ObjectShortName">tx_txen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_fmt_sel_async" type="array">
+      <obj_property name="ElementShortName">tx_fmt_sel_async[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_fmt_sel_async[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_pat_sel_async" type="array">
+      <obj_property name="ElementShortName">tx_pat_sel_async[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_pat_sel_async[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_mode_async" type="array">
+      <obj_property name="ElementShortName">tx_mode_async[2:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_mode_async[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_insert_sync_bit_async" type="logic">
+      <obj_property name="ElementShortName">tx_insert_sync_bit_async</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_sync_bit_async</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_reset" type="logic">
+      <obj_property name="ElementShortName">tx_reset</obj_property>
+      <obj_property name="ObjectShortName">tx_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_full_reset" type="logic">
+      <obj_property name="ElementShortName">tx_full_reset</obj_property>
+      <obj_property name="ObjectShortName">tx_full_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_sd" type="array">
+      <obj_property name="ElementShortName">tx_sd[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_sd[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_hd_y" type="array">
+      <obj_property name="ElementShortName">tx_hd_y[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_hd_y[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_hd_c" type="array">
+      <obj_property name="ElementShortName">tx_hd_c[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_hd_c[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_pal_patgen" type="array">
+      <obj_property name="ElementShortName">tx_pal_patgen[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_pal_patgen[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_ntsc_patgen" type="array">
+      <obj_property name="ElementShortName">tx_ntsc_patgen[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_ntsc_patgen[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/uhdsdi_vidgen_inst/tx_m_in_s" type="logic">
+      <obj_property name="ElementShortName">tx_m_in_s</obj_property>
+      <obj_property name="ObjectShortName">tx_m_in_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/tx_insert_vpid_out" type="logic">
+      <obj_property name="ElementShortName">tx_insert_vpid_out</obj_property>
+      <obj_property name="ObjectShortName">tx_insert_vpid_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SDI_RX_Subsystem_v1_0_tb/DUT/SDI_RX_Subsystem_v1_0_bfm_1_i/SDI_RX_Subsystem_0/U0/SDI_RX_Subsystem_v1_0_S00_AXI_inst/tx_txen_out" type="logic">
+      <obj_property name="ElementShortName">tx_txen_out</obj_property>
+      <obj_property name="ObjectShortName">tx_txen_out</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/AXI_DMA_Data_Gen_v1_0_bfm_1/ipshared/1b5a/hdl/AXI_DMA_Data_Gen_v1_0_S00_AXI.vhd" \
+"../../../bd/AXI_DMA_Data_Gen_v1_0_bfm_1/ipshared/1b5a/hdl/AXI_DMA_Data_Gen_v1_0.vhd" \
+"../../../bd/AXI_DMA_Data_Gen_v1_0_bfm_1/ip/AXI_DMA_Data_Gen_v1_0_bfm_1_AXI_DMA_Data_Gen_0_0/sim/AXI_DMA_Data_Gen_v1_0_bfm_1_AXI_DMA_Data_Gen_0_0.vhd" \
+"../../../bd/AXI_DMA_Data_Gen_v1_0_bfm_1/sim/AXI_DMA_Data_Gen_v1_0_bfm_1.vhd" \
+
+nosort
